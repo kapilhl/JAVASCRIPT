@@ -1,0 +1,718 @@
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}\
+    
+    
+(unknown) Uncaught SyntaxError: Invalid or unexpected token
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}\
+    
+    
+(unknown) Uncaught SyntaxError: Invalid or unexpected token
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+    
+    
+(unknown) Uncaught SyntaxError: Unexpected end of input
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+    
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.total();
+257
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total)/3);
+}   
+    
+ƒ (){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total)/3);
+}
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) PERCENTEAGE OF VARUN ISNaN
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total)/3);
+} 
+
+    
+ƒ (){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total)/3);
+}
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total())/3);
+} 
+
+    
+ƒ (){
+   console.log(`PERCENTEAGE OF ${this.name} IS`+(this.total())/3);
+}
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) PERCENTEAGE OF VARUN IS85.66666666666667
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF ${this.name} IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF ${this.name} IS: c");
+else
+console.log("GRADE OF ${this.name} IS: D");
+}
+    
+ƒ (){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.tot…
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.grade();
+(unknown) Uncaught TypeError: t.grade is not a function
+    at <anonymous>:1:3
+(anonymous)
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF ${this.name} IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF ${this.name} IS: c");
+else
+console.log("GRADE OF ${this.name} IS: D");
+}
+    
+ƒ (){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.tot…
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.grade();
+(unknown) GRADE OF ${this.name} IS: A
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF ${this.name} IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF ${this.name} IS: c");
+else
+console.log("GRADE OF ${this.name} IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+    
+ƒ (){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.report();
+(unknown) VARUN12257
+(unknown) Uncaught TypeError: this.name is not a function
+    at Student.percent (<anonymous>:13:50)
+    at Student.report (<anonymous>:29:18)
+    at <anonymous>:1:3
+Student.percent
+Student.report
+(anonymous)
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF ${this.name} IS: A1 ");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF ${this.name} IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF ${this.name} IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF ${this.name} IS: c");
+else
+console.log("GRADE OF ${this.name} IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+    
+ƒ (){
+console.log(this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log(`GRADE OF ${this.name} IS: A1 `);
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log(`GRADE OF ${this.name} IS: A`);
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log(`GRADE OF ${this.name} IS: B`);
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log(`GRADE OF ${this.name} IS: c`);
+else
+console.log(`GRADE OF ${this.name} IS: D`);
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+    
+ƒ (){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+t.percent();
+(unknown) Uncaught TypeError: this.name is not a function
+    at Student.percent (<anonymous>:13:50)
+    at <anonymous>:1:3
+Student.percent
+(anonymous)
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log(`GRADE OF ${this.name} IS: A1 `);
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log(`GRADE OF ${this.name} IS: A`);
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log(`GRADE OF ${this.name} IS: B`);
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log(`GRADE OF ${this.name} IS: c`);
+else
+console.log(`GRADE OF ${this.name} IS: D`);
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+    
+ƒ (){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}
+this.name;
+""
+t;
+Student {rollno: 12, name: "VARUN", phy: 89, math: 90, chem: 78, …}
+this.rollno;
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log(`GRADE OF ${this.name} IS: A1 `);
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log(`GRADE OF ${this.name} IS: A`);
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log(`GRADE OF ${this.name} IS: B`);
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log(`GRADE OF ${this.name} IS: c`);
+else
+console.log(`GRADE OF ${this.name} IS: D`);
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) Uncaught TypeError: this.name is not a function
+    at Student.Student.percent (<anonymous>:13:50)
+    at <anonymous>:1:3
+Student.Student.percent
+(anonymous)
+t.percent();
+(unknown) Uncaught TypeError: this.name is not a function
+    at Student.Student.percent (<anonymous>:13:50)
+    at <anonymous>:1:3
+Student.Student.percent
+(anonymous)
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   console.log(`PERCENTEAGE OF ${this.name} IS: `(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) Uncaught TypeError: this.name is not a function
+    at Student.Student.percent (<anonymous>:13:50)
+    at <anonymous>:1:3
+Student.Student.percent
+(anonymous)
+t.grade();
+(unknown) GRADE OF VARUN IS: A
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   console.log("PERCENTEAGE OF "+this.name+" IS: " (this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) Uncaught TypeError: " IS: " is not a function
+    at Student.Student.percent (<anonymous>:13:52)
+    at <anonymous>:1:3
+Student.Student.percent
+(anonymous)
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   console.log("PERCENTEAGE OF "+this.name+" IS:" +(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.name+this.rollno+this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.percent();
+(unknown) PERCENTEAGE OF VARUN IS:85.66666666666667
+undefined
+t.grade();
+(unknown) GRADE OF VARUN IS: A
+undefined
+t.report();
+(unknown) VARUN12257
+(unknown) PERCENTEAGE OF VARUN IS:85.66666666666667
+(unknown) undefined
+(unknown) GRADE OF VARUN IS: A
+(unknown) undefined
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   console.log("PERCENTEAGE OF "+this.name+" IS:" +(this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.report();
+(unknown) 257
+(unknown) PERCENTEAGE OF VARUN IS:85.66666666666667
+(unknown) undefined
+(unknown) GRADE OF VARUN IS: A
+(unknown) undefined
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   return ((this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log(this.total());
+console.log(this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.report();
+(unknown) 257
+(unknown) 85.66666666666667
+(unknown) GRADE OF VARUN IS: A
+(unknown) undefined
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   return ((this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log("TOTAL OF "+this.name+" IS: "this.total());
+console.log("PERCENTAGE OF "+this.name+" IS: "this.percent());
+console.log(this.grade());
+}}
+    
+(unknown) Uncaught SyntaxError: missing ) after argument list
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.report();
+(unknown) 257
+(unknown) 85.66666666666667
+(unknown) GRADE OF VARUN IS: A
+(unknown) undefined
+undefined
+function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+var sum=this.phy+this.math+this.chem;
+return sum;
+}
+
+Student.prototype.percent=function(){
+   return ((this.total())/3);
+} 
+Student.prototype.grade=function(){ 
+  if((this.total()/3)>=90)
+     console.log("GRADE OF "+this.name+" IS: A1");
+  else if((this.total()/3)>=80 && (this.total()/3)<90)
+console.log("GRADE OF "+this.name+" IS: A");
+else if((this.total()/3)>=70 && (this.total()/3)<80)
+console.log("GRADE OF "+this.name+" IS: B");
+else if((this.total()/3)>=60 && (this.total()/3)<70)
+console.log("GRADE OF "+this.name+" IS: C");
+else
+console.log("GRADE OF "+this.name+" IS: D");
+}
+Student.prototype.report=function(){
+console.log("TOTAL OF "+this.name+" IS: "+this.total());
+console.log("PERCENTAGE OF "+this.name+" IS: "+this.percent());
+console.log(this.grade());
+}}
+    
+undefined
+var t=new Student(12,"VARUN",89,90,78);
+undefined
+t.report();
+(unknown) TOTAL OF VARUN IS: 257
+(unknown) PERCENTAGE OF VARUN IS: 85.66666666666667
+(unknown) GRADE OF VARUN IS: A
+(unknown) undefined
+undefined
