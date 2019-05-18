@@ -1,0 +1,36 @@
+﻿function Student(rollno,name,phy,math,chem){
+this.rollno=rollno;
+this.name=name;
+this.phy=phy;
+this.math=math;
+this.chem=chem;
+this.total=function(){
+sum=this.phy+this.math+this.chem;
+return sum;
+}
+}
+Student.prototype.total1=function(){
+console.log('this is '+this.total())
+}
+Student.prototype.percentage=function(){
+console.log('percentage is '+this.total()/3)
+}
+Student.prototype.grade=function(){
+if(this.total()/3>=90)
+console.log('grade of '+this.name+'is A1')
+else if(this.total()/3>=75&&this.total()/3<=90)
+console.log('grade of '+this.name+'is A')
+else if(this.total()/3>=60&&this.total()/3<=75)
+console.log('grade of '+this.name+' is B')
+else if(this.total()/3>=45&&this.total()/3<=60)
+console.log('grade of '+this.name+' is C')
+else if(this.total()/3>=36&&this.total()/3<=45)
+console.log('grade of '+this.name+' is D')  
+}
+Student.prototype.report=function(){
+console.log('total of '+this.name+' IS: '+this.total());
+console.log('percentage of '+this.name+' IS:' +this.total());
+console.log(this.grade());
+}
+
+
