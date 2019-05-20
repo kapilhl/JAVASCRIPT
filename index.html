@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+      function doCompute(){
+       console.log("do compute call")
+       var salary=document.getElementById("basicsalary").value
+       var hra=salary * 0.30;
+       var da=salary * 0.10;
+       var ta=salary * 0.20;
+       var pf=salary * 0.05;
+       pf=pf*2;
+       var gs=parseInt(salary)+hra+da+ta-pf;
+       var tax=gs * 0.10;
+       var ns=gs-tax;
+       document.getElementById("hra").innerText=hra;
+       document.getElementById("da").innerText=da;
+       document.getElementById("ta").innerText=ta;
+       document.getElementById("pf").innerText=pf;
+       document.getElementById("gs").innerText=gs;
+       document.getElementById("tax").innerText=tax;
+       document.getElementById("ns").innerText=ns;
+      }
+    </script>
+</head>
+<body>
+    <label for="">basic salary</label>
+    <input type="text" placeholder"="jaiho" id="basicsalary">
+    <button onclick="doCompute()">compute</button>
+    <hr>
+    <fieldset>
+     <legend> Salary Details</legend>
+     <p>Hra is <span id='hra'> </span></p>
+     <p>Da is <span id='da'> </span></p>
+     <p>Ta is <span id='ta'> </span></p>
+     <p>Pf is <span id='pf'> </span></p>
+     <p>Gs is <span id='gs'> </span></p>
+     <p>TAX is <span id='tax'> </span></p> 
+     <p>NS is <span id='ns'> </span></p>
+    </fieldset>
+
+
+
+</body>
+</html>
